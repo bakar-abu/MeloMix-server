@@ -1,2 +1,7 @@
 const User = require("./User");
-module.exports = { User };
+const Songs =require("./songs")
+
+
+module.exports = { User ,Songs };
+
+
