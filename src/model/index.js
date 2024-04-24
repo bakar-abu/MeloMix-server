@@ -1,2 +1,5 @@
 const { UserModel } = require("./user");
-module.exports = { UserModel };
+const {SongsModel}=require("./songs")
+
+
+module.exports = { UserModel , SongsModel};
